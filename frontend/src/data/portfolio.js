@@ -2,11 +2,11 @@
 export const profile = {
   name: "Fredy Dwi Hartarto",
   initials: "FDH",
-  title: "Data Analyst · IT Infrastructure Specialist",
+  title: "IT Infrastructure Specialist · Data Analyst Newcomer",
   tagline:
     "Translating 14+ years of enterprise infrastructure into data-driven decisions.",
   summary:
-    "Infrastructure specialist with 14+ years managing enterprise banking data centers, system capacity, and tech architecture. Recently completed RevoU's Advanced Data Analytics program — focused on data cleaning, statistical testing, and predictive modeling. I pivot infrastructure rigor into analytics work: auditing tech performance, centralizing data, and delivering clear reports to executives.",
+    "IT Infrastructure Specialist with 14+ years managing enterprise banking data centers, system capacity, and technical architecture. Recently completed RevoU's Full Stack Data Analytics program — covering data cleaning, statistical testing, and predictive modeling. I pivot infrastructure rigor into analytics work: auditing system performance, centralizing infrastructure datasets, and delivering actionable data reports to executive teams.",
   location: "Jakarta, Indonesia",
   email: "fredydjogonegoro@gmail.com",
   phone: "+62 821-2231-2209",
@@ -38,13 +38,15 @@ export const skills = [
   },
   {
     group: "BI & Visualization",
-    items: ["Tableau", "Power BI", "Google Colab", "MS Excel"],
+    items: ["Tableau", "Power BI", "Grafana", "Google Colab", "MS Excel", "Google Sheets"],
   },
   {
     group: "Infrastructure",
     items: [
       "VMware (VCP 6.5)",
+      "VMware vCenter",
       "Proxmox",
+      "Hyper-V",
       "Oracle DBA",
       "Capacity Planning",
       "CMDB",
@@ -64,6 +66,8 @@ export const experience = [
     period: "Apr 2022 — Oct 2025",
     location: "Jakarta",
     points: [
+      "Led the KB Bukopin (KB Bank) Next-Generation Banking Migration: analyzed database structures to classify reusable data and scheduled migrations across operational/non-operational windows — delivered 100% zero downtime.",
+      "Calculated infrastructure capacity requirements and built a 5-year capacity forecast for the new core banking system.",
       "Rebuilt the asset tracking system across main environments, consolidating scattered spreadsheets into a single CMDB and lifting asset visibility by 95%.",
       "Monitored and audited daily infrastructure data — reviewed & approved 200+ network/server configuration changes with zero downtime to banking operations.",
       "Led technical data audits for compliance reviews, keeping systems 100% aligned with regulations and protecting the department's ISO 27001 certification.",
@@ -195,9 +199,9 @@ export const projects = [
 export const education = [
   {
     school: "RevoU",
-    degree: "Advanced Data Analytics Program",
-    period: "Feb 2026 — Present",
-    detail: "Data cleaning, EDA, hypothesis testing, regression, dashboarding.",
+    degree: "Full Stack Data Analytics Program",
+    period: "Feb 2026 — Jun 2026",
+    detail: "Advanced skills in SQL, Python, statistics, spreadsheets, and data visualization (Power BI & Tableau) to solve complex business problems.",
   },
   {
     school: "Gunadarma University",
@@ -208,6 +212,8 @@ export const education = [
 ];
 
 export const certifications = [
+  { name: "RevoU Full Stack Data Analysis", issuer: "RevoU", year: "Jun 2026" },
+  { name: "Intro to Data Analytics", issuer: "RevoU", year: "Jul 2025" },
   { name: "VMware Certified Professional (VCP 6.5)", issuer: "Duta Kuningan", year: "2018" },
   { name: "ISO 27001 Lead Implementer", issuer: "Duta Kuningan", year: "2018" },
   { name: "Risk Management (Banking)", issuer: "Bank Bukopin", year: "2018" },

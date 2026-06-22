@@ -39,9 +39,9 @@ export default function About() {
               <li className="flex gap-2.5">
                 <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
                 <span>
-                  Completing{" "}
+                  Completed{" "}
                   <span className="font-medium">
-                    RevoU Advanced Data Analytics
+                    RevoU Full Stack Data Analytics
                   </span>
                 </span>
               </li>
