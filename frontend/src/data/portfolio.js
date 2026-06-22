@@ -12,7 +12,7 @@ export const profile = {
   phone: "+62 821-2231-2209",
   linkedin: "https://linkedin.com/in/fredy-dwi-hartarto",
   github: "https://github.com/fredydjogonegoro",
-  photo: "/fredy.jpg",
+  photo: "/fredy_editorial.png",
   stats: [
     { value: "14+", label: "Years in Infra" },
     { value: "200+", label: "Approved Changes / 0 Downtime" },
