@@ -62,7 +62,7 @@ export default function Contact() {
             <ContactRow
               icon={<Linkedin className="w-4 h-4" />}
               label="LinkedIn"
-              value="fredy-dwi-hartarto"
+              value="fredy-dwi-hartarto-01712416b"
               href={profile.linkedin}
               external
               testId="contact-linkedin"
@@ -70,7 +70,7 @@ export default function Contact() {
             <ContactRow
               icon={<Github className="w-4 h-4" />}
               label="GitHub"
-              value="fredydjogonegoro"
+              value="fredydjogonegoro-Kuuga"
               href={profile.github}
               external
               testId="contact-github"

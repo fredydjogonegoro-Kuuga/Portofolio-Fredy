@@ -10,8 +10,8 @@ export const profile = {
   location: "Jakarta, Indonesia",
   email: "fredydjogonegoro@gmail.com",
   phone: "+62 821-2231-2209",
-  linkedin: "https://linkedin.com/in/fredy-dwi-hartarto",
-  github: "https://github.com/fredydjogonegoro",
+  linkedin: "https://www.linkedin.com/in/fredy-dwi-hartarto-01712416b/",
+  github: "https://github.com/fredydjogonegoro-Kuuga",
   photo: "/fredy_editorial.png",
   stats: [
     { value: "14+", label: "Years in Infra" },
