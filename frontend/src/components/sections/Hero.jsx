@@ -107,9 +107,6 @@ export default function Hero() {
                 <span className="w-2.5 h-2.5 rounded-full bg-foreground/15" />
                 <span className="w-2.5 h-2.5 rounded-full bg-foreground/15" />
                 <span className="w-2.5 h-2.5 rounded-full bg-foreground/15" />
-                <span className="ml-2 font-mono text-[10px] text-muted-foreground">
-                  ~/profile.jpg
-                </span>
               </div>
               <img
                 src={profile.photo}
